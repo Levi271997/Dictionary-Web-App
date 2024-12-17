@@ -1,16 +1,28 @@
 {
   "files": {
-    "main.css": "/Dictionary-Web-App/static/css/main.f855e6bc.css",
-    "main.js": "/Dictionary-Web-App/static/js/main.ebdbfb50.js",
+    "main.css": "/Dictionary-Web-App/static/css/main.9a338827.css",
+    "main.js": "/Dictionary-Web-App/static/js/main.c4f1b646.js",
     "static/js/488.c408fb7c.chunk.js": "/Dictionary-Web-App/static/js/488.c408fb7c.chunk.js",
-    "static/media/logo.svg": "/Dictionary-Web-App/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "static/media/Inter-Bold.ttf": "/Dictionary-Web-App/static/media/Inter-Bold.88fa7ae373b07b41ecce.ttf",
+    "static/media/Inter-Regular.ttf": "/Dictionary-Web-App/static/media/Inter-Regular.e89cb19905e7db5591b0.ttf",
+    "static/media/Lora-BoldItalic.ttf": "/Dictionary-Web-App/static/media/Lora-BoldItalic.dfc9b140175b142d7eb2.ttf",
+    "static/media/Lora-Regular.ttf": "/Dictionary-Web-App/static/media/Lora-Regular.a85f0bab31bffada1e5f.ttf",
+    "static/media/Lora-Bold.ttf": "/Dictionary-Web-App/static/media/Lora-Bold.df378067bf8c002587b4.ttf",
+    "static/media/Inconsolata-Bold.ttf": "/Dictionary-Web-App/static/media/Inconsolata-Bold.37f99d4808fcd34262c5.ttf",
+    "static/media/Inconsolata-Regular.ttf": "/Dictionary-Web-App/static/media/Inconsolata-Regular.54748073d423bc6646f7.ttf",
     "index.html": "/Dictionary-Web-App/index.html",
-    "main.f855e6bc.css.map": "/Dictionary-Web-App/static/css/main.f855e6bc.css.map",
-    "main.ebdbfb50.js.map": "/Dictionary-Web-App/static/js/main.ebdbfb50.js.map",
+    "static/media/icon-pause.svg": "/Dictionary-Web-App/static/media/icon-pause.d9ba810e9ae71df42d21beb721811dd5.svg",
+    "static/media/icon-new-window.svg": "/Dictionary-Web-App/static/media/icon-new-window.17ac2f0f91916515096e759611fdaea9.svg",
+    "static/media/logo.svg": "/Dictionary-Web-App/static/media/logo.afbe15e827b060eab1c775e3afad2b73.svg",
+    "static/media/icon-search.svg": "/Dictionary-Web-App/static/media/icon-search.13357ba7763bb4388cba203d0388c375.svg",
+    "static/media/icon-play2.svg": "/Dictionary-Web-App/static/media/icon-play2.f1bbeaa98b8b9178e53a630e83f1b7c8.svg",
+    "static/media/icon-arrow-down.svg": "/Dictionary-Web-App/static/media/icon-arrow-down.aa902848ffe2b4ed5369af17076de50d.svg",
+    "main.9a338827.css.map": "/Dictionary-Web-App/static/css/main.9a338827.css.map",
+    "main.c4f1b646.js.map": "/Dictionary-Web-App/static/js/main.c4f1b646.js.map",
     "488.c408fb7c.chunk.js.map": "/Dictionary-Web-App/static/js/488.c408fb7c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.f855e6bc.css",
-    "static/js/main.ebdbfb50.js"
+    "static/css/main.9a338827.css",
+    "static/js/main.c4f1b646.js"
   ]
 }
