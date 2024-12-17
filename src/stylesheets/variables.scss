@@ -1,0 +1,119 @@
+@import './mixins.scss';
+
+//colors
+
+$clr-dark-100: #3A3A3A;
+$clr-dark-200: #2D2D2D;
+$clr-dark-300: #1F1F1F;
+$clr-dark-400: #050505;
+
+$clr-white-100: #FFFFFF;
+$clr-white-200: #F4F4F4;
+$clr-white-300: #E9E9E9;
+
+$clr-gray-100: #757575;
+
+$clr-purple: #A445ED;
+$clr-orange: #FF5252;
+
+$ff-base:16;
+
+
+
+
+@font-face {
+    font-family: 'Inconsolata';
+    src: url('../assets/fonts/inconsolata/static/Inconsolata-Bold.ttf') format('truetype');
+    font-weight: 700; /* Medium weight */
+    font-style: normal;
+  }
+  
+  @font-face {
+    font-family: 'Inconsolata';
+    src: url('../assets/fonts/inconsolata/static/Inconsolata-Regular.ttf') format('truetype');
+    font-weight: 400; /* Medium weight */
+    font-style: normal;
+  }
+  
+  @font-face {
+    font-family: 'Inter';
+    src: url('../assets/fonts/inter/static/Inter-Bold.ttf') format('truetype');
+    font-weight: 700; /* Medium weight */
+    font-style: normal;
+  }
+  
+  @font-face {
+    font-family: 'Inter';
+    src: url('../assets/fonts/inter/static/Inter-Regular.ttf') format('truetype');
+    font-weight: 400; /* Medium weight */
+    font-style: normal;
+  }
+  
+  @font-face {
+    font-family: 'Lora';
+    src: url('../assets/fonts/lora/static/Lora-Bold.ttf') format('truetype');
+    font-weight: 700; /* Medium weight */
+    font-style: normal;
+  }
+  
+  @font-face {
+    font-family: 'Lora';
+    src: url('../assets/fonts/lora/static/Lora-Regular.ttf') format('truetype');
+    font-weight: 400; /* Medium weight */
+    font-style: normal;
+  }
+  
+  @font-face {
+    font-family: 'Lora';
+    src: url('../assets/fonts/lora/static/Lora-BoldItalic.ttf') format('truetype');
+    font-weight: 700; /* Medium weight */
+    font-style: italic;
+  }
+  
+
+
+$typography-styles: (
+        headingL:(
+            font-size:calc(64 / $ff-base) + rem,
+            line-height:calc(77 / $ff-base) + rem,
+            font-style:normal
+        ),
+        headingM:(
+            font-size:calc(24 / $ff-base) + rem,
+            line-height:calc(29 / $ff-base) + rem,
+            font-style:normal
+        ),
+        headingS:(
+            font-size:calc(20 / $ff-base) + rem,
+            line-height:calc(24 / $ff-base) + rem,
+            font-style:normal
+        ),
+        bodyM:(
+            font-size:calc(18 / $ff-base) + rem,
+            line-height:calc(24 / $ff-base) + rem,
+            font-style:normal,
+        ),
+        bodyS:(
+            font-size:calc(14 / $ff-base) + rem,
+            line-height:calc(17 / $ff-base) + rem,
+            font-style:normal
+        )
+);
+
+
+
+$light-theme:(
+    background:$clr-white-100,
+    text:$clr-dark-200,
+);
+
+$dark-theme:(
+    background:$clr-dark-400,
+    text:$clr-white-100,
+);
+
+
+  
+$trans-fast: 0.2s cubic-bezier(0.76, 0, 0.24, 1);
+$trans-medium: 0.4s cubic-bezier(0.76, 0, 0.24, 1);
+$trans-slow: 0.6s cubic-bezier(0.76, 0, 0.24, 1);
